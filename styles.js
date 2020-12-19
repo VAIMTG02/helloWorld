@@ -3,19 +3,19 @@ import { Platform, StatusBar, StyleSheet } from "react-native";
 export default StyleSheet.create({
   box: {
     alignItems: 'center',
-    backgroundColor: '#ccbc',
+    backgroundColor: '#cabc',
     marginTop:70,
     marginLeft: 30,
     marginRight: 30,
     padding: 10,
     paddingBottom: 30,
-    borderColor: '#17496',
-    borderWidth: 1,
+    borderColor: '#368790',
+    borderWidth: 2,
     borderStyle: 'line'
   },
   paragraph: {
-    margin: 15,
-    fontSize: 17,
+    margin: 10,
+    fontSize: 16,
     textAlign: 'left',
     },
   headerText: {
@@ -23,15 +23,15 @@ export default StyleSheet.create({
     textAlign: 'center',
   },
   picture: {
-    height: 140,
-    width: 140,
-    borderWidth: 2,
+    height: 128,
+    width: 128,
+    borderWidth: 1,
     borderRadius: 80,
-    paddingHorizontal: 10,
+    paddingHorizontal: 50,
   },
   ftext: {
     fontSize: 17,
     paddingBottom: 20,
-    fontStyle: 'bold'
+    fontStyle: 'italic'
   }
   });
